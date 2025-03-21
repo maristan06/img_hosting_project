@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Загрузка</title>
+    <link rel="stylesheet" href="upload-page-styles.css"/>
+</head>
+<body>
+
+<header class="main-header">
+    <div class="box1">
+        <h1><span class="tiltup">OMG!</span> image hosting</h1>
+    </div>
+    <div>
+        <button id="btnGoToImages" class="hero-button">галерея</button>
+    </div>
+
+</header>
+
+<main>
+    <section id="upload" class="tab-content active">
+        <div class="upload-area" id="drop-area" ondrop="handleFiles(event.dataTransfer.files)">
+            <div class="upload-area__icon">
+                <img src="upload.png" alt="Upload Icon" width="70" height="70"/>
+            </div>
+            <p>перетащи файл сюда</p>
+            <p class="upload-area__subtext">Only support .jpg, .png and
+                .gif.<br>Maximum file size is 5MB</p>
+
+            <input type="file" id="fileInput" hidden/>
+        </div>
+
+        <div>
+            <button id="browseButton">выбрать файл</button>
+        </div>
+        <div class="current-upload">
+            <label for="uploadUrl">текущая загрузка</label>
+            <div class="current-upload__field">
+                <input type="text" id="uploadUrl" placeholder="http://"/>
+                <button id="copyButton" disabled>copy</button>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

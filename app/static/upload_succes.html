@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success!</title>
+    <link rel="stylesheet" href="uf-us-styles.css"/>
+</head>
+<body>
+<section class="container">
+    <div>
+        <h1>yay! image uploaded! :)</h1>
+    </div>
+    <div>
+        <button id="btnGoToUpload" class="btn">upload another one</button>
+    </div>
+</section>
+
+<script>
+    document.getElementById('btnGoToUpload').addEventListener('click', (event) => {
+    window.location.href = '/upload/';
+});
+</script>
+</body>
+</html>
