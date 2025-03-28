@@ -11,7 +11,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "Roboto", sans-serif;
-    color: black;
+    color: white;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -151,6 +151,7 @@ body {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: rgba(163,183,181,0.5);
 }
 #copyButton {
   background-color: rgba(255,255,255,0.1);
