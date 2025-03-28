@@ -13,7 +13,7 @@ body {
   color: #333;
   text-align: center;
   padding: 20px;
-      background-image: url("images.png");
+      background-image: url("../images.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body {
     padding: 30px;
     border: 2px solid white;
     border-top-left-radius: 50px;
-    background-image: url("blue.png");
+    background-image: url("../blue.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
